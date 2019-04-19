@@ -1,6 +1,7 @@
 const app = function () {
-	const API_BASE = 'https://script.google.com/macros/s/AKfycbyP5Rifn7Q05Qcd7CTfm-AOouFHHvUAvCVVuKSfQu-LCqJocP8/exec';
-	const API_KEY = 'abcdef';
+	const API_BASE = 'https://script.google.com/a/fiscalnote.com/macros/s/AKfycbzTRg-5XMhkFTWfxGGVcg3mrBddN-0iCQN0pFcmW3fhCEH23NM/exec';
+	const API_KEY = 'AIzaSyCFX5tcqn9ECIzNjrlEoy6NWOxCNH1M2eU';
+	
 	const CATEGORIES = ['general', 'financial', 'technology', 'marketing'];
 
 	const state = {activePage: 1, activeCategory: null};
